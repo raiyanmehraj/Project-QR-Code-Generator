@@ -1,5 +1,5 @@
 # Project-QR-Code-Generator 
-## resources used to make this project-https://youtu.be/g1j9rR-H1lk?feature=shared
+## Resources used to make this project-https://youtu.be/g1j9rR-H1lk?feature=shared
 ## Deploy link :https://scintillating-bombolone-b9f940.netlify.app/
 What This Project Does:
 
