@@ -1,6 +1,49 @@
 # Project-QR-Code-Generator 
 ## resources used to make this project-https://youtu.be/g1j9rR-H1lk?feature=shared
-This project is about creating a Web based QR code generator using HTML,CSS and JavaScript. It is using a text or URL as an input to build a URL for the QR code API to generate a QR code for the given input. Basically the entire project can be divided into 3 parts- HTML(the skeleton of the webpage),CSS(to make the webpage more beautiful with design and animations) and JavaScript(for creating functionality).
-On the HTML section,I've created a container where I've used input tag where the input will be written down , a button to submit the input and an 'imgBox' identifier where the whole box would expand to show the qr code after pressing the button with a input. If the button is pressed without any input the 'imgBox' would not expand and stay hidden.
-Then on the CSS section , I've added some designs to different parts of the website, especially to the 'imgBox' when the button is clicked with or without any input.When input is given, the 'imgBox' would expand , otherwise it would not and without input the whole thing would be considered as an eror and it would shake the input field if it's empty.I've added animations to make it more attention grabbing.
-In the JavaScript section, I created the variables 'imgBox', 'qrImage', and 'qrText', and used them within a function that controls the behavior based on whether the user provides input or not.When the input is provided this fuction will use the QR code API to generate a QR code and shows it in the 'imgBox' . I've implemented this fuction to take action whenever the button is clicked.
+What This Project Does:
+
+This is a web app that lets you generate QR codes from any text or URL you type in. Just enter your input, click the button — it shows your QR code right on the screen. If you try to hit the button without typing anything, the input box will shake a bit to let you know something's missing.
+
+#What I Used:
+
+*HTML to build the basic structure of the page (input field, button, and image area).
+*CSS to make everything look clean and add animations like shaking or expanding boxes.
+*JavaScript to handle what happens when you click the button — and to connect with a free online QR code API.
+*QR Code API from goqr.me to generate the actual QR images.
+
+
+#How I Built It (Step-by-Step):
+
+1.Started with HTML
+I made a simple container with:
+*An input field for the user to type in text or a URL
+*A button to trigger the QR code generation
+*A hidden image box that will show the QR code after it’s created
+
+2.Styled it with CSS
+I centered everything and gave it a clean, modern look. I also added:
+*A smooth animation that reveals the QR code
+*A "shake" effect on the input field if it's left empty
+
+3.Wrote the JavaScript logic
+I grabbed the HTML elements using their IDs (qrText, qrImage, and imgBox) and:
+*Made a function that checks if input is given
+*If yes: it builds a QR code using the API and displays it
+*If no: it adds an animation to shake the input field
+
+4.Tested it in the browser
+*Open the HTML file, type something in the box, click the button, and it just works.
+
+
+#Cool Features & Small Challenges:
+
+*The QR code box only pops up when valid input is given, which keeps the UI clean.
+*I added a shaking effect to help users realize they need to type something first.
+*A tiny challenge was timing the animations and making sure the QR code shows up nicely without breaking the layout.
+
+
+
+
+
+
+
