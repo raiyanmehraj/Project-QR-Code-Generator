@@ -1,5 +1,6 @@
 # Project-QR-Code-Generator 
 ## resources used to make this project-https://youtu.be/g1j9rR-H1lk?feature=shared
+## Deploy link :https://scintillating-bombolone-b9f940.netlify.app/
 What This Project Does:
 
 This is a web app that lets you generate QR codes from any text or URL you type in. Just enter your input, click the button — it shows your QR code right on the screen. If you try to hit the button without typing anything, the input box will shake a bit to let you know something's missing.
